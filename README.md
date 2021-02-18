@@ -2,6 +2,12 @@
 
 A package with a collection of small datasets for learning and testing purposes.
 
+## Development
+
+1. `yarn prepublish`.
+2. `yarn publish`.
+3. `git push && git push --tags`.
+
 ## References
 
 - [`@visx/mock-data`](https://github.com/airbnb/visx/tree/master/packages/visx-mock-data).
