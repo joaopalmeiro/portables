@@ -1,6 +1,6 @@
 {
   "name": "portables",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "description": "A package with a collection of small datasets for learning and testing purposes.",
   "main": "lib/index.js",
