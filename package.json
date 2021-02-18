@@ -4,14 +4,14 @@
   "private": false,
   "description": "A package with a collection of small datasets for learning and testing purposes.",
   "main": "lib/index.js",
-  "types": "lib",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "LICENSE",
     "README.md"
   ],
   "scripts": {
-    "build": "tsc -p .",
+    "build": "rm -rf ./lib && tsc -p .",
     "prepublish": "yarn style:check && yarn package:check && yarn build",
     "style:check": "prettier --check .",
     "type:check": "tsc --noEmit",

@@ -13,4 +13,6 @@ A package with a collection of small datasets for learning and testing purposes.
 
 ## Notes
 
-- `tsconfig.json`: `npx tsc --init`.
+- Generate `tsconfig.json`: `npx tsc --init`.
+- `"types": "lib"`.
+- [`type-fest`](https://github.com/sindresorhus/type-fest) package.
